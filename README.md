@@ -9,9 +9,20 @@ Cada AA inclou:
 - Una pràctica guiada d'exercicis (`.docx`), amb captures de pantalla reals quan la pràctica implica programari.
 - Un temari d'estudi (`.md`, amb versió `.docx` per imprimir/editar offline), per a l'estudi autònom de l'alumnat. El `.md` es pot llegir directament des de GitHub (amb diagrames inclosos).
 
+Per a RA2 (NF2), a més, hi ha dues pràctiques complementàries per AA (A06/A07) basades en els projectes reals "EverPia" i "EverPia III" (repositoris `NF2AA2-GestioDiscos` i `NF2AA3-CopiesSeguretat` de SMX-0226SI), amb captures de pantalla reals fetes expressament per a aquesta guia.
+
+Les hores de cada RA s'han calibrat per aproximar-se al màxim a la distribució horària oficial del mòdul (programació DOGC): quan el material de referència ("Materials") no cobria prou hores per si sol, s'ha ampliat el nombre o la profunditat dels AA (és el cas de RA4 i RA5).
+
 ## Contingut
 
-- **RA2 · Emmagatzematge i còpies de seguretat**
+- **RA2 · Emmagatzematge i còpies de seguretat** (26h)
   - [AA1 · Protegint les dades](<RA2 - Emmagatzematge i copies de seguretat/AA1 - Protegint les dades/T01_Temari_Protegint_les_dades.md>)
   - [AA2 · Sistemes d'emmagatzematge](<RA2 - Emmagatzematge i copies de seguretat/AA2 - Sistemes demmagatzematge/T02_Temari_Sistemes_emmagatzematge.md>)
   - [AA3 · Còpies de seguretat](<RA2 - Emmagatzematge i copies de seguretat/AA3 - Copies de seguretat/T03_Temari_Copies_de_seguretat.md>)
+
+- **RA5 · Legislació i normativa** (20h)
+  - [AA1 · Protecció de dades (RGPD/LOPD-GDD)](<RA5 - Legislacio i normativa/AA1 - Proteccio de dades/T08_Temari_Proteccio_dades.md>)
+  - [AA2 · LSSI (comerç electrònic i serveis d'Internet)](<RA5 - Legislacio i normativa/AA2 - LSSI/T09_Temari_LSSI.md>)
+  - [AA3 · Propietat intel·lectual i llicències (LPI)](<RA5 - Legislacio i normativa/AA3 - Propietat intellectual i llicencies/T10_Temari_Propietat_intellectual.md>)
+
+*(RA3 i RA4 en preparació.)*
