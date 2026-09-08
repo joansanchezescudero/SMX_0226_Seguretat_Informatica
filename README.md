@@ -20,9 +20,17 @@ Les hores de cada RA s'han calibrat per aproximar-se al màxim a la distribució
   - [AA2 · Sistemes d'emmagatzematge](<RA2 - Emmagatzematge i copies de seguretat/AA2 - Sistemes demmagatzematge/T02_Temari_Sistemes_emmagatzematge.md>)
   - [AA3 · Còpies de seguretat](<RA2 - Emmagatzematge i copies de seguretat/AA3 - Copies de seguretat/T03_Temari_Copies_de_seguretat.md>)
 
+- **RA3 · Seguretat activa** (24h)
+  - [AA1 · Malware](<RA3 - Seguretat activa/AA1 - Malware/T11_Temari_Malware.md>)
+  - [AA2 · Vulnerabilitats](<RA3 - Seguretat activa/AA2 - Vulnerabilitats/T12_Temari_Vulnerabilitats.md>)
+  - [AA3 · Criptografia](<RA3 - Seguretat activa/AA3 - Criptografia/T13_Temari_Criptografia.md>)
+  - [AA4 · Recuperació de dades](<RA3 - Seguretat activa/AA4 - Recuperacio de dades/T14_Temari_Recuperacio_dades.md>)
+
 - **RA5 · Legislació i normativa** (20h)
   - [AA1 · Protecció de dades (RGPD/LOPD-GDD)](<RA5 - Legislacio i normativa/AA1 - Proteccio de dades/T08_Temari_Proteccio_dades.md>)
   - [AA2 · LSSI (comerç electrònic i serveis d'Internet)](<RA5 - Legislacio i normativa/AA2 - LSSI/T09_Temari_LSSI.md>)
   - [AA3 · Propietat intel·lectual i llicències (LPI)](<RA5 - Legislacio i normativa/AA3 - Propietat intellectual i llicencies/T10_Temari_Propietat_intellectual.md>)
 
-*(RA3 i RA4 en preparació.)*
+*(RA4 en preparació.)*
+
+Les pràctiques de RA3-AA2, AA3 i AA4 (A12, A13, A14) inclouen captures de terminal 100% reals: nmap, OpenSSL (xifrat AES, generació de claus RSA, signatura digital) i foremost (recuperació de dades) executats expressament per elaborar la guia.
