@@ -26,11 +26,27 @@ Les hores de cada RA s'han calibrat per aproximar-se al màxim a la distribució
   - [AA3 · Criptografia](<RA3 - Seguretat activa/AA3 - Criptografia/T13_Temari_Criptografia.md>)
   - [AA4 · Recuperació de dades](<RA3 - Seguretat activa/AA4 - Recuperacio de dades/T14_Temari_Recuperacio_dades.md>)
 
+- **RA4 · Seguretat en xarxa** (38h)
+  - [AA1 · Enginyeria social i phishing](<RA4 - Seguretat en xarxa/AA1 - Enginyeria social i phishing/T15_Temari_Enginyeria_social_phishing.md>)
+  - [AA2 · Inventari i monitorització de la xarxa](<RA4 - Seguretat en xarxa/AA2 - Inventari i monitoritzacio/T16_Temari_Inventari_Monitoritzacio.md>)
+  - [AA3 · Signatura digital](<RA4 - Seguretat en xarxa/AA3 - Signatura digital/T17_Temari_Signatura_digital.md>)
+  - [AA4 · Tallafocs](<RA4 - Seguretat en xarxa/AA4 - Tallafocs/T18_Temari_Tallafocs.md>)
+
 - **RA5 · Legislació i normativa** (20h)
   - [AA1 · Protecció de dades (RGPD/LOPD-GDD)](<RA5 - Legislacio i normativa/AA1 - Proteccio de dades/T08_Temari_Proteccio_dades.md>)
   - [AA2 · LSSI (comerç electrònic i serveis d'Internet)](<RA5 - Legislacio i normativa/AA2 - LSSI/T09_Temari_LSSI.md>)
   - [AA3 · Propietat intel·lectual i llicències (LPI)](<RA5 - Legislacio i normativa/AA3 - Propietat intellectual i llicencies/T10_Temari_Propietat_intellectual.md>)
 
-*(RA4 en preparació.)*
+**Curs complet: RA1-RA5 (132h totals).**
 
-Les pràctiques de RA3-AA2, AA3 i AA4 (A12, A13, A14) inclouen captures de terminal 100% reals: nmap, OpenSSL (xifrat AES, generació de claus RSA, signatura digital) i foremost (recuperació de dades) executats expressament per elaborar la guia.
+Les pràctiques de RA3-AA2/AA3/AA4 (A12, A13, A14) i RA4-AA2/AA3/AA4 (A16, A17, A18) inclouen captures de terminal 100% reals: nmap, OpenSSL (xifrat AES, claus RSA, signatura digital, certificats X.509), foremost (recuperació de dades), tshark (captura de trànsit) i UFW (tallafocs), totes executades expressament per elaborar cada guia.
+
+## Quadre d'hores per RA
+
+| RA | Contingut | Hores oficials | Hores del material de referència | Ajust aplicat |
+|---|---|---|---|---|
+| RA1 | Seguretat passiva | 24h | — | (material propi del centre) |
+| RA2 | Emmagatzematge i còpies de seguretat | 26h | ~26h | Cap (coincideix) |
+| RA3 | Seguretat activa | 24h | 24h | Cap (coincideix exactament) |
+| RA4 | Seguretat en xarxa | 38h | ~32h | +1 AA ampliat en profunditat (pràctiques amb més abast) per cobrir el gap de 6h |
+| RA5 | Legislació i normativa | 20h | ~12h | +1 AA nou: "Propietat intel·lectual i llicències (LPI)", per cobrir el gap de 8h |
