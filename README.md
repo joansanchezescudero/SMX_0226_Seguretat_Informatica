@@ -9,7 +9,7 @@ Cada AA inclou:
 - Una pràctica guiada d'exercicis (`.docx`), amb captures de pantalla reals quan la pràctica implica programari.
 - Un temari d'estudi (`.md`, amb versió `.docx` per imprimir/editar offline), per a l'estudi autònom de l'alumnat. El `.md` es pot llegir directament des de GitHub (amb diagrames inclosos).
 
-Per a RA2 (NF2), a més, hi ha dues pràctiques complementàries per AA (A06/A07) basades en els projectes reals "EverPia" i "EverPia III" (repositoris `NF2AA2-GestioDiscos` i `NF2AA3-CopiesSeguretat` de SMX-0226SI), amb captures de pantalla reals fetes expressament per a aquesta guia.
+Per a RA2 (NF2), a més, hi ha dues pràctiques complementàries per AA (A06/A07) basades en els projectes reals "EverPia" i "EverPia III" (repositoris `NF2AA2-GestioDiscos` i `NF2AA3-CopiesSeguretat` de SMX-0226SI), amb captures de pantalla reals fetes expressament per a aquesta guia. Per a RA1-AA3 (Seguretat lògica), hi ha també una pràctica complementària (A04) d'administració real d'usuaris, grups i ACL a Ubuntu.
 
 Les hores de cada RA s'han calibrat per aproximar-se al màxim a la distribució horària oficial del mòdul (programació DOGC): quan el material de referència ("Materials") no cobria prou hores per si sol, s'ha ampliat el nombre o la profunditat dels AA (és el cas de RA4 i RA5).
 
