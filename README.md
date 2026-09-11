@@ -2,7 +2,7 @@
 
 Material del mòdul professional 0226 (Seguretat Informàtica), CFGM Sistemes Microinformàtics i Xarxes, 2n curs — Institut Puig Castellar.
 
-Estructura per Resultat d'Aprenentatge (RA) i, dins de cada RA, per activitat d'aprenentatge (AA), seguint el desglossament del repositori [Materials de SMX-0226SI](https://github.com/SMX-0226SI/Materials) (Carlos Alonso Martínez, Escola Pia de Mataró, CC-BY-SA-4.0), adaptat a l'estil i plantilla propis del centre.
+Estructura per Resultat d'Aprenentatge (RA) i, dins de cada RA, per activitat d'aprenentatge (AA). RA2-RA5 segueixen el desglossament del repositori [Materials de SMX-0226SI](https://github.com/SMX-0226SI/Materials) (Carlos Alonso Martínez, Escola Pia de Mataró, CC-BY-SA-4.0), adaptat a l'estil i plantilla propis del centre. RA1 es basa en el material de l'[Institut Obert de Catalunya (IOC)](https://ioc.xtec.cat/materials/FP/Recursos/fp_smx_m06_/web/fp_smx_m06_htmlindex/WebContent/u1/introduccio.html) (llicència CC BY-NC-SA, IOC 2011), amb les diapositives de teoria elaborades directament pel professor.
 
 Cada AA inclou:
 - Una presentació de teoria (`.pptx`).
@@ -14,6 +14,11 @@ Per a RA2 (NF2), a més, hi ha dues pràctiques complementàries per AA (A06/A07
 Les hores de cada RA s'han calibrat per aproximar-se al màxim a la distribució horària oficial del mòdul (programació DOGC): quan el material de referència ("Materials") no cobria prou hores per si sol, s'ha ampliat el nombre o la profunditat dels AA (és el cas de RA4 i RA5).
 
 ## Contingut
+
+- **RA1 · Seguretat passiva** (24h)
+  - [AA1 · Seguretat passiva](<RA1 - Seguretat passiva/AA1 - Seguretat passiva/T04_Temari_Seguretat_Passiva.md>)
+  - [AA2 · Sistemes d'alimentació ininterrompuda](<RA1 - Seguretat passiva/AA2 - Sistemes alimentacio ininterrompuda/T05_Temari_SAI.md>)
+  - [AA3 · Seguretat lògica](<RA1 - Seguretat passiva/AA3 - Seguretat logica/T06_Temari_Seguretat_Logica.md>)
 
 - **RA2 · Emmagatzematge i còpies de seguretat** (26h)
   - [AA1 · Protegint les dades](<RA2 - Emmagatzematge i copies de seguretat/AA1 - Protegint les dades/T01_Temari_Protegint_les_dades.md>)
@@ -45,7 +50,7 @@ Les pràctiques de RA3-AA2/AA3/AA4 (A12, A13, A14) i RA4-AA2/AA3/AA4 (A16, A17, 
 
 | RA | Contingut | Hores oficials | Hores del material de referència | Ajust aplicat |
 |---|---|---|---|---|
-| RA1 | Seguretat passiva | 24h | — | (material propi del centre) |
+| RA1 | Seguretat passiva | 24h | — | Material propi (IOC + professor); coincideix amb els 3 apartats oficials |
 | RA2 | Emmagatzematge i còpies de seguretat | 26h | ~26h | Cap (coincideix) |
 | RA3 | Seguretat activa | 24h | 24h | Cap (coincideix exactament) |
 | RA4 | Seguretat en xarxa | 38h | ~32h | +1 AA ampliat en profunditat (pràctiques amb més abast) per cobrir el gap de 6h |
