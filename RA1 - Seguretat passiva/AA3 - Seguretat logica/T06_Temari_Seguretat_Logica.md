@@ -13,6 +13,10 @@ Els sentinelles militars, quan s'acostava algú desconegut, calia que diguessin 
 
 > 💡 Primer cal AUTENTICAR-SE per entrar; després, el sistema AUTORITZA (o no) cada acció que es vulgui fer.
 
+![Esquema del sistema d'autenticació per a l'entrada al sistema](media/fig31_esquema_autenticacio.png)
+
+*Esquema del sistema d'autenticació per a l'entrada al sistema.*
+
 ## 3. Objectes, subjectes i drets d'accés
 
 - **Objecte**: el recurs amb accés controlat (fitxer, directori, registre...).
@@ -60,10 +64,18 @@ L'**enginyeria social** és l'atac més comú: un atacant truca fent-se passar p
 
 Normes bàsiques: no dir-la mai per telèfon ni correu; no dir-la a companys, encara que siguin superiors; no apuntar-la mai en un paper; canviar-la com a mínim cada sis mesos.
 
+![Cas real: un operador del centre d'emergències de Hawaii amb la contrasenya del sistema apuntada en un post-it](media/hawaii_postit_password.png)
+
+*Cas real (2018): un operador del centre d'emergències de Hawaii tenia la contrasenya del sistema apuntada en un post-it, ben visible al seu lloc de treball.*
+
 ## 6. Sistemes biomètrics
 
 - Basats en un atribut físic ("alguna cosa que ÉS"): empremtes, iris, retina, palmell, cara.
 - Basats en el comportament ("alguna cosa que FA"): signatura, forma d'escriure... poden canviar amb el temps.
+
+![Lector de retina, un sistema biomètric](media/foto_biometric_retina.png)
+
+*Els sistemes biomètrics basats en la lectura de la retina són una eina molt fiable com a mesura d'autenticació.*
 
 ### 6.1. Cap sistema és infal·lible
 
@@ -99,6 +111,8 @@ Normes bàsiques: no dir-la mai per telèfon ni correu; no dir-la a companys, en
 
 > 💡 r = lectura, w = escriptura, x = execució. Sense permís d'execució en un directori, ningú no hi pot entrar, encara que en tingui de lectura.
 
+![Diagrama dels permisos rwx per a usuari, grup i altres](media/diagrama_rwx.png)
+
 ### 9.2. Tres ordres per gestionar permisos
 
 | Ordre | Funció | Exemple |
@@ -115,6 +129,12 @@ Normes bàsiques: no dir-la mai per telèfon ni correu; no dir-la a companys, en
 - **Registres de seguretat**: antivirus, tallafocs, encaminadors, proxies...
 
 > 💡 Un decrement molt accentuat del rendiment pot ser un indicador que hi ha un virus o un cavall de Troia treballant en segon pla.
+
+![Visor d'esdeveniments de Windows](media/fig32_visor_esdeveniments_windows.png)
+
+*Figura — Visor d'esdeveniments de Windows. Els encaminadors (routers) també generen registres de seguretat rellevants.*
+
+![Encaminador (router)](media/foto_encaminador.png)
 
 ### 10.1. Bones pràctiques
 
