@@ -78,6 +78,14 @@ Perquè hi hagi foc calen tres elements: **calor + combustible + oxigen**. N'hi 
 
 Els detectors poden ser òptics (fum) o de temperatura, manuals o automàtics. L'extinció, manual (extintors, mànegues) o automàtica (aspersors d'aigua o gas).
 
+![Extintor de pols ABC](media/foto_extintor.png)
+
+*Els extintors són una de les mesures bàsiques de prevenció d'incendis. Cal que passin revisions periòdiques perquè siguin fiables quan calgui.*
+
+![El triangle del foc: calor, combustible i oxigen](media/triangle_foc.png)
+
+*El triangle del foc: n'hi ha prou d'eliminar un dels tres elements perquè s'apagui.*
+
 ### Tipus de foc i com apagar-los
 
 | Classe | Tipus | Exemple | Extinció |
@@ -100,6 +108,10 @@ Tanques, murs, barrots, guardes de seguretat i gossos, senyals d'alerta i il·lu
 
 > 💡 L'alçada d'una tanca canvia molt el seu efecte: 1 m només dissuadeix vianants casuals; 2 m és difícil d'escalar; 2,5 m transmet que l'empresa es pren la seguretat seriosament.
 
+![Tanca perimetral](media/foto_tanca_perimetral.png)
+
+*Les tanques han de tenir una alçada determinada perquè siguin eficaces com a mesura dissuasiva contra intrusos.*
+
 ### 11.2. Dificultats d'accés: el "mantrap"
 
 Una habitació amb DUES portes: s'obre la primera i un guarda identifica la persona; es tanca, i cal superar un control robust (biometria, targeta + contrasenya) per obrir la segona. Si no se supera, la persona queda atrapada entremig.
@@ -111,6 +123,10 @@ Altres controls: cadenats, targeta intel·ligent, teclat numèric, biometria.
 Els SDI (Sistemes de Detecció d'Intrusos) usen sensors interns i externs (perimetrals) que detecten canvis lumínics, acústics, de moviment o electromagnètics, i necessiten alimentació pròpia.
 
 Els falsos positius existeixen: cal un protocol clar (qui truca a qui segons el tipus d'incidència) — un vidre trencat el revisa un guarda; un foc a la sala de servidors, els bombers.
+
+![Escena d'una pel·lícula amb un intrús evitant un sistema de detecció](media/foto_intrus_pellicula.png)
+
+*Algunes pel·lícules ens mostren com els intrusos intenten burlar els sistemes de detecció d'intrusos.*
 
 ## Resum de l'apartat
 

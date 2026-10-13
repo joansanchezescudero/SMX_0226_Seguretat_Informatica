@@ -28,6 +28,8 @@ Un dispositiu electrònic està dissenyat per rebre un voltatge màxim concret; 
 
 > 💡 Un descarregador de sobretensió és una protecció bàsica i econòmica per a PC, monitors i impressores (no tots els endolls múltiples en porten). Davant d'una tempesta, el més segur és desendollar l'equip.
 
+> ⚠️ Els llamps poden provocar sobretensions tan altes que els descarregadors de sobretensió no les puguin filtrar. Per augmentar-ne la protecció, cal desendollar els ordinadors quan no s'utilitzen o en cas de tempesta.
+
 ## 4. Baixades de tensió
 
 Menys serioses que les sobretensions: la majoria d'equips toleren fluctuacions grans. Sovint causades per un motor gran que arrenca i "roba" tensió a la resta de la línia. Un **regulador de voltatge (VRM)** manté el nivell de voltatge, eliminant tant sobretensions com baixades.
@@ -40,6 +42,10 @@ Menys serioses que les sobretensions: la majoria d'equips toleren fluctuacions g
 
 > 💡 Si cal encara més temps, el SAI pot donar marge fins que arrenqui un grup electrogen.
 
+![SAI de la companyia APC (part davantera)](media/foto_sai_apc_davant.png)
+
+*SAI de la companyia APC (part davantera): el panell frontal mostra l'estat i els indicadors de línia/bateria.*
+
 ## 6. Les 6 parts principals d'un SAI
 
 1. Circuits d'inversió/conversió (altern ↔ continu).
@@ -48,6 +54,10 @@ Menys serioses que les sobretensions: la majoria d'equips toleren fluctuacions g
 4. Connectors de sortida.
 5. Indicadors d'estat (LED, alarmes sonores).
 6. Programari de control (monitoratge des de l'ordinador).
+
+![SAI de la companyia APC (part posterior)](media/foto_sai_apc_darrere.png)
+
+*SAI de la companyia APC (part posterior): s'hi veuen els connectors de sortida i l'interruptor principal.*
 
 ### 6.1. Indicadors d'estat
 
@@ -74,6 +84,10 @@ Connectant un cable (avui, normalment USB) del SAI a l'ordinador: estat (càrreg
 
 En els SAI standby/interactius hi ha un breu interval (fracció de segon) entre el tall de llum i el moment en què la bateria alimenta l'ordinador — prou curt per no notar-se, però existeix. En un SAI **online**, l'ordinador sempre rep alimentació de la bateria: zero temps de transferència, la protecció més robusta que existeix.
 
+![Diagrama comparatiu dels 3 tipus de SAI i el temps de transferència](media/sai_tipus_transferencia.png)
+
+*Com més curt el temps de transferència, més robusta la protecció: el SAI online no en té gens.*
+
 ## 8. Escollir el SAI: càrrega, autonomia i capacitat
 
 - **Càrrega**: el conjunt d'equips connectats.
@@ -97,6 +111,10 @@ Exemple real (SAI APC Back-UPS 550VA):
 - **Potència aparent (VA)**: la que subministra el SAI (sempre ≥ que la real).
 
 > ⚠️ Error habitual: un SAI de 300 W / 500 VA NO serveix per a una càrrega de 400 W, encara que "400 no arribi a 500". Cal comparar W amb W, mai W amb VA.
+
+![Diagrama comparatiu entre watts (W) i voltamperes (VA)](media/w_vs_va.png)
+
+*La potència real (W) s'obté multiplicant la potència aparent (VA) pel factor de potència (FP).*
 
 ## 10. A l'hora de decidir i ubicar el SAI
 
