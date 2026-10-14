@@ -6,6 +6,10 @@
 
 La informació és un dels actius més valuosos de qualsevol empresa. Si un disc dur s'avaria, els programes es poden tornar a instal·lar sense gaire dificultat, però les dades, si es perden, normalment no es poden recuperar de cap manera. Per aquest motiu, les dades també són un dels objectius més cercats pels delinqüents: el segrest de dades (*ransomware*), un programari maliciós que xifra la informació d'una víctima i en demana un rescat econòmic per desxifrar-la, s'ha convertit en una de les principals amenaces per a les empreses d'avui dia.
 
+![Ransomware: xifratge de dades amb demanda de rescat](media/ransomware.png)
+
+*El ransomware xifra les dades de la víctima i en demana un rescat econòmic per desxifrar-les.*
+
 Davant d'aquest escenari, disposem de dues estratègies complementàries —no excloents— per protegir la informació:
 
 - **Continuïtat de negoci**: protegim les dades de manera que, davant d'un incident, es pugui seguir treballant sense pèrdua de dades.

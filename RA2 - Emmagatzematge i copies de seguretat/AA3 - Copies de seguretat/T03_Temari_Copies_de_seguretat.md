@@ -34,6 +34,10 @@ No totes les dades tenen la mateixa importància ni són igual de recuperables. 
 
 ### 3.3. La regla 3-2-1
 
+![Esquema de la regla 3-2-1: 3 còpies, 2 suports diferents, 1 còpia offsite](media/3-2-1.png)
+
+*La regla 3-2-1 és l'estàndard de referència per organitzar les còpies de seguretat.*
+
 El **US-CERT** (l'equip de resposta a emergències informàtiques dels EUA) va establir l'"estratègia 3-2-1", avui l'estàndard de referència del sector:
 
 1. **3** còpies de les dades: l'original i **dues** còpies de seguretat.
@@ -70,6 +74,10 @@ La freqüència determina la **finestra de recuperació** (*recovery window*): e
 
 > 💡 Els arxius de còpia se solen comprimir (.zip, .bz2...) per optimitzar l'espai i el temps de transferència.
 
+| Incremental | Diferencial |
+|---|---|
+| ![Còpia incremental](media/incremental.png) | ![Còpia diferencial](media/diferencial.png) |
+
 ## 5. Esquemes de rotació
 
 Les còpies antigues no se substitueixen immediatament: es van rotant, per poder recuperar versions antigues si cal. Això dona un horitzó de recuperació més ampli i reparteix el desgast dels suports.
@@ -79,6 +87,10 @@ Les còpies antigues no se substitueixen immediatament: es van rotant, per poder
 - **Fill** (*son*): còpia incremental/diferencial diària, una cinta per dia de la setmana, reutilitzada cada setmana.
 - **Pare** (*father*): còpia completa setmanal, una cinta per setmana del mes.
 - **Avi** (*grandfather*): l'última completa del mes s'extreu de la rotació i es guarda com a còpia mensual (i, a l'any, com a arxiu a llarg termini).
+
+![Esquema de còpies de seguretat GFS (Avi-Pare-Fill)](media/gfs.png)
+
+*L'esquema GFS organitza les còpies en tres nivells: avi (mensual), pare (setmanal) i fill (diari).*
 
 ### 5.2. Torres de Hanoi
 
@@ -92,6 +104,10 @@ Esquema més complex, basat en el trencaclosques matemàtic del mateix nom: màx
 | D | Cada 16 dies | Completa |
 
 > ⚠️ Per la seva complexitat, recomanable només amb sistemes automatitzats de gestió de suports.
+
+![Esquema de rotació de les Torres de Hanoi](media/hanoi.png)
+
+*El periode d'ús de cada suport es duplica a cada lletra (A, B, C, D...).*
 
 ## 6. Comprovar les còpies de seguretat
 
@@ -121,6 +137,10 @@ Una imatge conté l'estructura i el contingut complets d'un disc o partició: pe
 | **Clonació de discos** | Només el contingut real (no l'espai lliure) | Un altre equip |
 | **Imatge de disc** | Similar a la clonació, comprimible | Un fitxer de "respaldament" |
 | **Imatge forense** | TOT, bloc a bloc, inclòs l'espai no usat + hash de verificació | Investigacions/peritatges |
+
+![Clonadora forense connectada a dos discos durs](media/clonadora_forense.png)
+
+*Una clonadora forense fa una còpia bloc a bloc d'un disc, preservant-ne la integritat per a investigacions.*
 
 **Eines**: Windows (eina nativa, Acronis True Image, Clonezilla, FOG) · Linux (Clonezilla, `dd`, PartImage) · Forense (FTK Imager, Guymager).
 
