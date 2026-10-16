@@ -30,7 +30,7 @@ No totes les dades tenen la mateixa importància ni són igual de recuperables. 
 | **Remotes en xarxa** | Centralitzen totes les còpies | Sovint a la mateixa ubicació física que l'original |
 | **A Internet** | Separació física real | Cal bona connexió; qüestions legals i de confiança en el proveïdor |
 
-> 📌 **Cas real:** l'incendi del centre de dades d'OVHcloud a Estrasburg (2021) va destruir informació de clients que només tenien còpies al mateix edifici.
+> 📌 **Cas real:** [l'incendi del centre de dades d'OVHcloud a Estrasburg (2021)](https://www.datacenterdynamics.com/es/noticias/ovhcloud-condenado-a-pagar-250000-a-dos-clientes-que-perdieron-datos-en-el-incendio-del-centro-de-datos-de-estrasburgo/) va destruir informació de clients que només tenien còpies al mateix edifici.
 
 ### 3.3. La regla 3-2-1
 
@@ -113,13 +113,13 @@ Esquema més complex, basat en el trencaclosques matemàtic del mateix nom: màx
 
 Si el sistema de còpies falla, no es podran restaurar les dades quan calgui: cal fer proves de restauració periòdiques.
 
-> 📌 **Cas real:** l'any 1998, Pixar va arribar a perdre 90 minuts de la pel·lícula *Toy Story 2* per un error al sistema de còpies. Només es va poder recuperar perquè, per sort, una treballadora en tenia una còpia personal al seu propi equip.
+> 📌 **Cas real:** l'any 1998, [Pixar va arribar a perdre 90 minuts de la pel·lícula *Toy Story 2*](https://www.redstor.com/resource-hub/five-of-the-biggest-scare-stories-in-data-backup-history/) per un error al sistema de còpies. Només es va poder recuperar perquè, per sort, una treballadora en tenia una còpia personal al seu propi equip.
 
 Aquestes proves també entrenen el personal per restaurar sota pressió real. Consell professional: en restaurar una base de dades, no sobreescriguis les dades existents — així pots comparar totes dues versions.
 
 ## 7. La política de còpies de seguretat
 
-Defineix, a més de què/on/com/quan: els responsables, el temps de retenció, els procediments de restauració, com es protegeixen físicament les còpies (xifratge, armaris ignífugs, serveis com Iron Mountain per a l'arxiu a llarg termini), i el calendari de renovació i destrucció segura dels suports (veure [AA1](../AA1%20-%20Protegint%20les%20dades/T01_Temari_Protegint_les_dades.md)).
+Defineix, a més de què/on/com/quan: els responsables, el temps de retenció, els procediments de restauració, com es protegeixen físicament les còpies (xifratge, armaris ignífugs, serveis com [Iron Mountain](https://www.ironmountain.com/es-es/services/offsite-tape-vaulting) per a l'arxiu a llarg termini), i el calendari de renovació i destrucció segura dels suports (veure [AA1](../AA1%20-%20Protegint%20les%20dades/T01_Temari_Protegint_les_dades.md)).
 
 ## 8. Programari de còpia de seguretat
 
@@ -142,7 +142,7 @@ Una imatge conté l'estructura i el contingut complets d'un disc o partició: pe
 
 *Una clonadora forense fa una còpia bloc a bloc d'un disc, preservant-ne la integritat per a investigacions.*
 
-**Eines**: Windows (eina nativa, Acronis True Image, Clonezilla, FOG) · Linux (Clonezilla, `dd`, PartImage) · Forense (FTK Imager, Guymager).
+**Eines**: Windows (eina [nativa](https://somebooks.es/crear-una-imagen-de-disco-en-windows-11/), [Acronis True Image](https://www.acronis.com/es/products/true-image/), [Clonezilla](https://clonezilla.org/), [FOG](https://www.fogproject.org/)) · Linux ([Clonezilla](https://clonezilla.org/), `dd`, [PartImage](https://www.partimage.org)) · Forense ([FTK Imager](https://accessdata.com/product-download/ftk-imager-version-4-5-0), [Guymager](https://guymager.sourceforge.io/)).
 
 ## Resum de l'apartat
 
@@ -155,9 +155,9 @@ Una imatge conté l'estructura i el contingut complets d'un disc o partició: pe
 ## Per saber-ne més
 
 - Repositori ["Materials"](https://github.com/SMX-0226SI/Materials/blob/main/NF2/AA3-CopiesSeguretat.md) (GitHub, SMX-0226SI) — Carlos Alonso Martínez, Escola Pia de Mataró (llicència CC-BY-SA-4.0).
-- DataCenterDynamics — notícia sobre l'incendi del centre de dades d'OVHcloud a Estrasburg (2021).
-- INCIBE — "Guía de copias de seguridad"; NAKIVO — "Backup Types Explained".
-- Redstor — "Five of the biggest scare stories in data backup history" (cas Pixar).
+- DataCenterDynamics — [notícia sobre l'incendi del centre de dades d'OVHcloud a Estrasburg (2021)](https://www.datacenterdynamics.com/es/noticias/ovhcloud-condenado-a-pagar-250000-a-dos-clientes-que-perdieron-datos-en-el-incendio-del-centro-de-datos-de-estrasburgo/).
+- INCIBE — ["Guía de copias de seguridad"](https://www.incibe.es/index.php/empresas/guias/copias-seguridad-guia-aproximacion-el-empresario); NAKIVO — ["Backup Types Explained"](https://www.nakivo.com/blog/backup-types-explained/).
+- Redstor — ["Five of the biggest scare stories in data backup history"](https://www.redstor.com/resource-hub/five-of-the-biggest-scare-stories-in-data-backup-history/) (cas Pixar).
 - [clonezilla.org](https://clonezilla.org) — documentació oficial.
 
 ---
