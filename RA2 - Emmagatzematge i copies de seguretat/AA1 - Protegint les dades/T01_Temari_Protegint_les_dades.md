@@ -48,7 +48,7 @@ La protecció de les dades no s'acaba amb la redundància. Implica també la seg
 
 Hi ha, a més, un aspecte sovint oblidat: gestionar el **cicle de vida de les dades**. És a dir, com es creen, com s'emmagatzemen, com s'utilitzen i, finalment, com es destrueixen els suports físics quan arriben al final de la seva vida útil.
 
-> 📌 **Cas real:** un estudi realitzat el 2019 (PCMag, *"Many Used Hard Drives Sold on eBay Still Contain Leftover Data"*) va descobrir que **3 de cada 5** discos durs de segona mà venuts a eBay encara contenien dades personals i confidencials dels seus antics propietaris.
+> 📌 **Cas real:** un estudi realitzat el 2019 (PCMag, [*"Many Used Hard Drives Sold on eBay Still Contain Leftover Data"*](https://www.pcmag.com/news/many-used-hard-drives-sold-on-ebay-still-contain-leftover-data)) va descobrir que **3 de cada 5** discos durs de segona mà venuts a eBay encara contenien dades personals i confidencials dels seus antics propietaris.
 
 ## 5. Com destruir les dades de manera segura
 
@@ -66,7 +66,7 @@ Una de les estratègies de sobrescriptura més conegudes és la que recomana el 
 
 Les impressores i fotocopiadores digitals solen tenir memòria interna (sovint un disc dur) on queden emmagatzemades còpies dels documents que s'hi han imprès, escanejat o fotocopiat, de vegades durant mesos o anys.
 
-El reportatge *"Copy Machines, a Security Risk?"* (CBS News) va destapar precisament aquest problema: fotocopiadores donades de baixa o revenudes de segona mà que conservaven milers de documents confidencials sense que ningú n'hagués estat conscient. Cal tenir en compte aquests dispositius —i qualsevol altre amb memòria interna— a l'hora de dissenyar una política de destrucció de dades.
+El reportatge [*"Copy Machines, a Security Risk?"*](https://youtu.be/iC38D5am7go?si=d__dJDAlE-Zwb85A) (CBS News) va destapar precisament aquest problema: fotocopiadores donades de baixa o revenudes de segona mà que conservaven milers de documents confidencials sense que ningú n'hagués estat conscient. Cal tenir en compte aquests dispositius —i qualsevol altre amb memòria interna— a l'hora de dissenyar una política de destrucció de dades.
 
 ## Resum de l'apartat
 
@@ -79,9 +79,9 @@ El reportatge *"Copy Machines, a Security Risk?"* (CBS News) va destapar precisa
 ## Per saber-ne més
 
 - Repositori ["Materials"](https://github.com/SMX-0226SI/Materials/blob/main/NF2/AA1-ProtegintDades.md) (GitHub, SMX-0226SI) — Carlos Alonso Martínez, Escola Pia de Mataró (llicència CC-BY-SA-4.0).
-- IONOS Digital Guide — "La importancia de contar con un disaster recovery plan".
-- PCMag — "Many Used Hard Drives Sold on eBay Still Contain Leftover Data" (2019).
-- CBS News — "Copy Machines, a Security Risk?" (reportatge, disponible a YouTube).
+- IONOS Digital Guide — ["La importancia de contar con un disaster recovery plan"](https://www.ionos.es/digitalguide/servidores/know-how/todo-sobre-el-disaster-recovery-plan-o-drp/).
+- PCMag — ["Many Used Hard Drives Sold on eBay Still Contain Leftover Data"](https://www.pcmag.com/news/many-used-hard-drives-sold-on-ebay-still-contain-leftover-data) (2019).
+- CBS News — ["Copy Machines, a Security Risk?"](https://youtu.be/iC38D5am7go?si=d__dJDAlE-Zwb85A) (reportatge, disponible a YouTube).
 
 ---
 *Mòdul 0226 · Seguretat informàtica — CFGM SMX2 — Institut Puig Castellar*

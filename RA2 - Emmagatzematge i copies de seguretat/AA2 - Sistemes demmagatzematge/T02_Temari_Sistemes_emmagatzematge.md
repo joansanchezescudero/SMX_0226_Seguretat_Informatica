@@ -217,7 +217,7 @@ Altres combinacions són possibles, com el RAID 50 (RAID 5+0) o el RAID 60 (RAID
 
 ![Comparativa de velocitat i fiabilitat dels nivells de RAID](media/RAID.gif)
 
-*Comparativa visual dels principals tipus de RAID.*
+*[Comparativa visual dels principals tipus de RAID](https://www.instagram.com/reel/DdtTpMwCkEd/?stkn=MmU0eTB6bjNkMTRr).*
 
 ### 3.6. Comparativa de nivells de RAID
 
@@ -242,7 +242,7 @@ Servidors que exposen carpetes compartides a la xarxa (SMB o NFS). Pot ser tan b
 
 ![Servidor HP ProLiant DL380 amb cabina de discos dedicada](media/hp-proliant.jpg)
 
-*Servidor HP ProLiant DL380 Gen9, un exemple real d'equip usat com a DAS.*
+*[Servidor HP ProLiant DL380 Gen9](https://support.hpe.com/hpesc/public/docDisplay?docId=a00019684en_us&docLocale=en_US), un exemple real d'equip usat com a DAS.*
 
 ![Esquema d'un sistema DAS: dos servidors, cadascun amb el seu propi emmagatzematge](media/das.png)
 
@@ -254,7 +254,7 @@ Dispositius dedicats exclusivament a l'emmagatzematge en xarxa: petits servidors
 
 ![Esquema d'un NAS i un dispositiu NAS real de D-Link](media/nas.png)
 
-*Un NAS connecta diversos clients a través d'un switch; a la dreta, un dispositiu NAS real amb diverses badies de discos.*
+*Un NAS connecta diversos clients a través d'un switch; a la dreta, [un dispositiu NAS real](https://www.dlink.com/en/products/nas) amb diverses badies de discos.*
 
 ### 4.3. SAN (Storage Area Network)
 
@@ -264,7 +264,7 @@ Xarxes dedicades exclusivament a l'emmagatzematge, molt més complexes i costose
 
 ![Cabines de discos muntades en rack, típiques d'un sistema SAN](media/cabina_de_discos.png)
 
-*Cabines de discos dedicades, com les que s'utilitzen en un SAN.*
+*[Cabines de discos dedicades](https://www.infores.es/productos/Almacenamiento-SAN.html), com les que s'utilitzen en un SAN.*
 
 ## 5. Serveis de núvol
 
@@ -281,8 +281,8 @@ Pagament per ús en lloc d'infraestructura pròpia; fins i tot amb plans gratuï
 
 - Repositori ["Materials"](https://github.com/SMX-0226SI/Materials/blob/main/NF2/AA2-SistemesEmmagatzematge.md) (GitHub, SMX-0226SI) — Carlos Alonso Martínez, Escola Pia de Mataró (llicència CC-BY-SA-4.0).
 - [raid-calculator.com](https://www.raid-calculator.com/raid-types-reference.aspx) — "RAID Types Reference".
-- NASEROS (YouTube) — "Tipos de RAID. En qué se diferencian y cuales son los mejores".
-- Pau Tomé (YouTube) — "RAID en Windows Server".
+- NASEROS (YouTube) — ["Tipos de RAID. En qué se diferencian y cuales son los mejores"](https://youtu.be/x8MXkvgeD0w?si=PxmhBAzU1JfD0yvy).
+- Pau Tomé (YouTube) — ["RAID en Windows Server"](https://youtu.be/3XO-GrcyxHg?si=gzZ1YTr-ovlSkkI4).
 - IBM — ["What is a storage area network (SAN)?"](https://www.ibm.com/think/topics/storage-area-network)
 
 ---
