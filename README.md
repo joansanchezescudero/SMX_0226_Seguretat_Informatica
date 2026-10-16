@@ -55,3 +55,8 @@ Les pràctiques de RA3-AA2/AA3/AA4 (A12, A13, A14) i RA4-AA2/AA3/AA4 (A16, A17, 
 | RA3 | Seguretat activa | 24h | 24h | Cap (coincideix exactament) |
 | RA4 | Seguretat en xarxa | 38h | ~32h | +1 AA ampliat en profunditat (pràctiques amb més abast) per cobrir el gap de 6h |
 | RA5 | Legislació i normativa | 20h | ~12h | +1 AA nou: "Propietat intel·lectual i llicències (LPI)", per cobrir el gap de 8h |
+
+## Llicència
+
+- **RA1** deriva del material de l'Institut Obert de Catalunya (IOC) i es publica sota la mateixa llicència: [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca).
+- **RA2-RA5** deriven del repositori [Materials de SMX-0226SI](https://github.com/SMX-0226SI/Materials) (Carlos Alonso Martínez, Escola Pia de Mataró) i es publiquen sota la mateixa llicència: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ca).
