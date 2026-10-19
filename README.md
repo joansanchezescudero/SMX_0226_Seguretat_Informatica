@@ -4,12 +4,14 @@ Material del mòdul professional 0226 (Seguretat Informàtica), CFGM Sistemes Mi
 
 Estructura per Resultat d'Aprenentatge (RA) i, dins de cada RA, per activitat d'aprenentatge (AA). RA2-RA5 segueixen el desglossament del repositori [Materials de SMX-0226SI](https://github.com/SMX-0226SI/Materials) (Carlos Alonso Martínez, Escola Pia de Mataró, CC-BY-SA-4.0), adaptat a l'estil i plantilla propis del centre. RA1 es basa en el material de l'[Institut Obert de Catalunya (IOC)](https://ioc.xtec.cat/materials/FP/Recursos/fp_smx_m06_/web/fp_smx_m06_htmlindex/WebContent/u1/introduccio.html) (llicència CC BY-NC-SA, IOC 2011), amb les diapositives de teoria elaborades directament pel professor.
 
+Numeració dels dossiers d'activitats: RA1 conserva la numeració original (A01–A04); de RA2 en endavant, cada dossier es numera amb el RA i l'ordre dins del RA (per exemple, A2.1 és el primer dossier de RA2).
+
 Cada AA inclou:
 - Una presentació de teoria (`.pptx`).
 - Una pràctica guiada d'exercicis (`.docx`), amb captures de pantalla reals quan la pràctica implica programari.
 - Un temari d'estudi (`.md`, amb versió `.docx` per imprimir/editar offline), per a l'estudi autònom de l'alumnat. El `.md` es pot llegir directament des de GitHub (amb diagrames inclosos).
 
-Per a RA2 (NF2), a més, hi ha dues pràctiques complementàries per AA (A06/A07) basades en els projectes reals "EverPia" i "EverPia III" (repositoris `NF2AA2-GestioDiscos` i `NF2AA3-CopiesSeguretat` de SMX-0226SI), amb captures de pantalla reals fetes expressament per a aquesta guia. Per a RA1-AA3 (Seguretat lògica), hi ha també una pràctica complementària (A04) d'administració real d'usuaris, grups i ACL a Ubuntu.
+Per a RA2 (NF2), a més, hi ha dues pràctiques complementàries per AA (A2.3/A2.5) basades en els projectes reals "EverPia" i "EverPia III" (repositoris `NF2AA2-GestioDiscos` i `NF2AA3-CopiesSeguretat` de SMX-0226SI), amb captures de pantalla reals fetes expressament per a aquesta guia. Per a RA1-AA3 (Seguretat lògica), hi ha també una pràctica complementària (A04) d'administració real d'usuaris, grups i ACL a Ubuntu.
 
 Les hores de cada RA s'han calibrat per aproximar-se al màxim a la distribució horària oficial del mòdul (programació DOGC): quan el material de referència ("Materials") no cobria prou hores per si sol, s'ha ampliat el nombre o la profunditat dels AA (és el cas de RA4 i RA5).
 
@@ -44,7 +46,7 @@ Les hores de cada RA s'han calibrat per aproximar-se al màxim a la distribució
 
 **Curs complet: RA1-RA5 (132h totals).**
 
-Les pràctiques de RA3-AA2/AA3/AA4 (A12, A13, A14) i RA4-AA2/AA3/AA4 (A16, A17, A18) inclouen captures de terminal 100% reals: nmap, OpenSSL (xifrat AES, claus RSA, signatura digital, certificats X.509), foremost (recuperació de dades), tshark (captura de trànsit) i UFW (tallafocs), totes executades expressament per elaborar cada guia.
+Les pràctiques de RA3-AA2/AA3/AA4 (A3.2, A3.3, A3.4) i RA4-AA2/AA3/AA4 (A4.2, A4.3, A4.4) inclouen captures de terminal 100% reals: nmap, OpenSSL (xifrat AES, claus RSA, signatura digital, certificats X.509), foremost (recuperació de dades), tshark (captura de trànsit) i UFW (tallafocs), totes executades expressament per elaborar cada guia.
 
 ## Quadre d'hores per RA
 
