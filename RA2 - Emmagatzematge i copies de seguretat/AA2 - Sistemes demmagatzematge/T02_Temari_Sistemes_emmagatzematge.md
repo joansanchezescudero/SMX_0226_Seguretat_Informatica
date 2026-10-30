@@ -298,6 +298,8 @@ En un entorn empresarial, les dades no haurien d'estar només a les estacions de
 
 Servidors que exposen carpetes compartides a la xarxa (SMB o NFS). Pot ser tan bàsic com un servidor normal, o tan avançat com un servidor amb cabines de discos dedicades (*hot-plug*). Inconvenients: rendiment baix si el servidor no és dedicat, disponibilitat limitada, i possible coll d'ampolla de xarxa.
 
+> 💡 **En una frase:** un DAS és com un «armari de discos» connectat directament a un sol servidor: només aquell servidor el pot fer servir i, si vol que els altres equips hi accedeixin, ha de compartir-ne les carpetes ell mateix per la xarxa.
+
 ![Servidor HP ProLiant DL380 amb cabina de discos dedicada](media/hp-proliant.jpg)
 
 *[Servidor HP ProLiant DL380 Gen9](https://support.hpe.com/hpesc/public/docDisplay?docId=a00019684en_us&docLocale=en_US), un exemple real d'equip usat com a DAS.*
@@ -310,6 +312,8 @@ Servidors que exposen carpetes compartides a la xarxa (SMB o NFS). Pot ser tan b
 
 Dispositius dedicats exclusivament a l'emmagatzematge en xarxa: petits servidors amb sistema operatiu especialitzat i interfície web de gestió. Molt aptes per al mercat domèstic i la petita empresa. Limitacions de CPU/RAM i possible coll d'ampolla de xarxa.
 
+> 💡 **En una frase:** un NAS és com un «armari de discos» amb cervell propi, connectat a la xarxa perquè tothom hi pugui guardar i agafar fitxers.
+
 ![Esquema d'un NAS i un dispositiu NAS real de D-Link](media/nas.png)
 
 *Un NAS connecta diversos clients a través d'un switch; a la dreta, [un dispositiu NAS real](https://www.dlink.com/en/products/nas) amb diverses badies de discos.*
@@ -317,6 +321,8 @@ Dispositius dedicats exclusivament a l'emmagatzematge en xarxa: petits servidors
 ### 5.3. SAN (Storage Area Network)
 
 Xarxes dedicades exclusivament a l'emmagatzematge, molt més complexes i costoses que un NAS, però amb rendiment molt superior. Utilitzen protocols optimitzats (Fibre Channel, iSCSI, FCoE) diferents dels de la LAN convencional, i requereixen switches i targetes de xarxa específiques. Els servidors s'organitzen en clústers: redundància a nivell de disc (RAID) **i** a nivell de servidor complet.
+
+> 💡 **En una frase:** una SAN és com un «magatzem central» amb carreteres pròpies: els servidors hi reben discos sencers per una xarxa exclusiva i els fan servir com si fossin seus.
 
 > 💡 A una escala més petita, es pot muntar un clúster d'emmagatzematge amb servidors normals de la LAN (DAS), amb tecnologies com Windows Server DFS o GlusterFS (Linux), sense la infraestructura cara d'una SAN completa.
 
