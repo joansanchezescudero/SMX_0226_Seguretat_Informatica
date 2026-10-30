@@ -158,6 +158,29 @@ flowchart TD
     style Disk2 fill:#F5F5F5,stroke:#9E9E9E,stroke-width:2px;
 ```
 
+#### Com funciona la paritat?
+
+Una analogia amb sumes ajuda a entendre-ho. Imagina que has de guardar dos números, 3 i 5, i tens tres caixes:
+
+| Caixa A | Caixa B | Caixa C (paritat) |
+|---|---|---|
+| 3 | 5 | **8** (= 3 + 5) |
+
+- Si es perd la caixa A: 8 − 5 = 3. Recuperat.
+- Si es perd la caixa B: 8 − 3 = 5. Recuperat.
+- Si es perd la caixa C: es torna a calcular, 3 + 5 = 8.
+- Si es perden dues caixes alhora, ja no es pot calcular res. Per això el RAID 5 només suporta la fallada d'un disc.
+
+El RAID 5 fa exactament això, però en comptes de la suma fa servir l'operació **XOR**, a nivell de bits:
+
+```
+Disc 1:   1 0 1 1
+Disc 2:   0 1 1 0
+Paritat:  1 1 0 1   (XOR: 1 si els bits són diferents, 0 si són iguals)
+```
+
+Si es perd el disc 1, en fer el XOR del disc 2 amb la paritat surt 1 0 1 1, que és el contingut original.
+
 ### 4.4. RAID 6 — Doble paritat
 
 Igual que el RAID 5, però amb una **segona** banda de paritat: suporta la pèrdua de **dos** discos simultàniament. Calen un mínim de quatre unitats.
