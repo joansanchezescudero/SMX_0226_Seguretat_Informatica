@@ -341,7 +341,7 @@ Pagament per ús en lloc d'infraestructura pròpia; fins i tot amb plans gratuï
 
 ### 6.2. El model híbrid
 
-Moltes empreses combinen tots dos models: guarden en local les dades sensibles i les que necessiten més velocitat, i fan servir el núvol per a les còpies de seguretat fora de l'empresa i per créixer quan cal (per exemple, en moments de més feina o per col·laborar amb personal que treballa a distància).
+Moltes empreses combinen tots dos models: guarden en local les dades sensibles i les que necessiten més velocitat, i fan servir el núvol per a les còpies de seguretat fora de l'empresa, per ampliar l'espai o la potència només quan ho necessiten (per exemple, en moments de més feina, sense haver de comprar més servidors) i per col·laborar amb personal que treballa a distància.
 
 ## Resum de l'apartat
 
