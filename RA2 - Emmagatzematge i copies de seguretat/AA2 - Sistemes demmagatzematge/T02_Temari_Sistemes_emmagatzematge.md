@@ -324,6 +324,11 @@ Xarxes dedicades exclusivament a l'emmagatzematge, molt més complexes i costose
 
 > 💡 **En una frase:** una SAN és com un «magatzem central» amb carreteres pròpies: els servidors hi reben discos sencers per una xarxa exclusiva i els fan servir com si fossin seus.
 
+**Com es reparteix l'espai: les LUN.** En una SAN no es reserva un disc físic per a cada servidor. Tots els discos de la cabina s'agrupen (normalment amb RAID) en un gran conjunt d'espai, i d'aquest conjunt es tallen «discos virtuals» de la mida que calgui, anomenats LUN (Logical Unit Number). Cada LUN s'assigna a un o més servidors, que la veuen com si fos un disc local seu (per exemple, /dev/sdb), la formaten i la fan servir sense saber en quins discos físics és realment.
+
+- Exemple: amb 24 discos de 4 TB en RAID 6 (uns 88 TB útils), es pot donar una LUN de 2 TB al servidor de bases de dades, una de 10 TB al de virtualització i una de 500 GB al de correu, i ampliar-les més endavant si cal.
+- És la mateixa idea que LVM a Linux (un grup de volums del qual es tallen volums lògics), però a gran escala i lliurant els volums als servidors per una xarxa dedicada.
+
 > 💡 A una escala més petita, es pot muntar un clúster d'emmagatzematge amb servidors normals de la LAN (DAS), amb tecnologies com Windows Server DFS o GlusterFS (Linux), sense la infraestructura cara d'una SAN completa.
 
 ![Cabines de discos muntades en rack, típiques d'un sistema SAN](media/cabina_de_discos.png)
