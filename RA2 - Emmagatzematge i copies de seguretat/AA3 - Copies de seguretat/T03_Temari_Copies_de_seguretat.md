@@ -101,7 +101,7 @@ Esquema més complex, basat en el trencaclosques matemàtic del mateix nom: màx
 | A | Dies alterns | Incremental/diferencial |
 | B | Cada 4 dies | Incremental/diferencial |
 | C | Cada 8 dies | Completa |
-| D | Cada 16 dies | Completa |
+| D | Cada 8 dies (s'alterna amb C) | Completa |
 
 > ⚠️ Per la seva complexitat, recomanable només amb sistemes automatitzats de gestió de suports.
 
